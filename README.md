@@ -1,6 +1,6 @@
 # Deptech - Laravel Project
 
-Ini adalah proyek Laravel yang dikembangkan untuk **[deskripsi proyek Anda]**. Berikut adalah langkah-langkah untuk meng-clone dan menjalankan proyek ini secara lokal.
+Ini adalah proyek Laravel yang dikembangkan untuk Technical Test. Berikut adalah langkah-langkah untuk meng-clone dan menjalankan proyek ini secara lokal.
 
 ## 🛠 Persyaratan Minimum
 
@@ -32,7 +32,7 @@ Jalankan perintah berikut untuk menginstall semua dependency Laravel:
 composer install
 ```
 
-Jika menggunakan frontend (Vite), jalankan juga:
+Saya menggunakan frontend (Vite), jalankan juga:
 
 ```sh
 npm install
@@ -65,12 +65,12 @@ php artisan key:generate
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
-   DB_DATABASE=nama_database
+   DB_DATABASE=deptech
    DB_USERNAME=root
    DB_PASSWORD=
    ```
 
-3. Jalankan migrasi dan seeder (jika ada):
+3. Jalankan migrasi dan seeder:
 
    ```sh
    php artisan migrate --seed
@@ -89,7 +89,7 @@ php artisan serve
 Proyek akan berjalan di:  
 👉 **http://127.0.0.1:8000**
 
-Jika menggunakan frontend Vite, jalankan juga:
+Dan, jalankan juga:
 
 ```sh
 npm run dev
@@ -97,32 +97,9 @@ npm run dev
 
 ---
 
-## ✅ 6. Menjalankan Queue (Jika Diperlukan)
-
-Jika proyek menggunakan queue, jalankan:
-
-```sh
-php artisan queue:work
-```
-
----
-
-## 🛠 Perintah Tambahan
-
-- **Menjalankan storage link:**  
-  ```sh
-  php artisan storage:link
-  ```
-- **Menjalankan cache clear:**  
-  ```sh
-  php artisan config:clear && php artisan cache:clear
-  ```
-
----
-
 ## 📌 Kontributor
 
-- **[Nama Anda]** - [Deskripsi singkat]
+- **Sarwidad FIvaprila** - Melamar Posisi PHP Developer/Web Developer
 
 Jika ada pertanyaan atau kendala, silakan buat **issue** atau hubungi saya. 🚀
 
