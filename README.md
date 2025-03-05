@@ -75,6 +75,10 @@ php artisan key:generate
    ```sh
    php artisan migrate --seed
    ```
+   Seeder telah dibuat, dan Anda dapat login menggunakan:
+
+    Email: admin@gmail.com
+    Password: Admin123
 
 ---
 
